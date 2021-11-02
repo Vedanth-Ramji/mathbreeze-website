@@ -1,0 +1,10 @@
+.menu {
+    align-self: center;
+    align-items: center;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-auto-rows: 70px;
+    margin: auto;
+    justify-content: center;
+}

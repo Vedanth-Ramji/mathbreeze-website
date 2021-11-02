@@ -1,0 +1,24 @@
+.numberFactsPage {
+    height: 100%;
+}
+
+.numberFactsPage-inputBox {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.numberFactsPage-searchButton {
+    width: 200px;
+    margin: auto;
+}
+
+.numberFactsPage-output {
+    text-align: center;
+    margin-top: 30px;
+}

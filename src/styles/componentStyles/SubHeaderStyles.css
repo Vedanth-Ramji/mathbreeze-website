@@ -1,0 +1,6 @@
+.subHeader {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+}
