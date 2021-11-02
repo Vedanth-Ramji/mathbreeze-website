@@ -10,7 +10,7 @@ export default function NumberFactsPage() {
     const [outputData, setOutputData] = useState('');
 
     const handleSearchButtonClick = () => {
-        if (num == '' || isNaN(num)) {
+        if (num === '' || isNaN(num)) {
             alert('Please enter a proper numeric value');
         } else {
             axios.get(`http://numbersapi.com/${num}/math`).then(res => {
