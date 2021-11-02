@@ -1,4 +1,4 @@
-import '../styles/componentStyles/HomePageMenuStyles.css';
+import '../styles/componentStyles/MenuStyles.css';
 import MenuCard from './MenuCard';
 
 export default function Menu({menuData}) {

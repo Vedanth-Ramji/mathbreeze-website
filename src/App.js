@@ -10,6 +10,7 @@ import Navbar from './components/Navbar';
 
 import HomePage from './pages/HomePage';
 import NumberFactsPage from './pages/NumberFactsPage';
+import PracticePage from './pages/PracticePage';
 import PageNotFoundPage from './pages/PageNotFoundPage';
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
                 <Switch>
                     <Route exact path='/' component={HomePage} />
                     <Route exact path='/number-facts' component={NumberFactsPage} />
+                    <Route exact path='/practice' component={PracticePage} />
                     <Route component={PageNotFoundPage} />
                 </Switch>
             </Router>
