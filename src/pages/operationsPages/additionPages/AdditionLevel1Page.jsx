@@ -4,7 +4,7 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
 export default function AdditionLevel1Page() {
-    const [questionNum, setQuestionNum] = useState('1');
+    const [questionNum, setQuestionNum] = useState(1);
     const [input, setInput] = useState('');
     const [num1, setNum1] = useState(Math.floor(Math.random() * 100));
     const [num2, setNum2] = useState(Math.floor(Math.random() * 100));
