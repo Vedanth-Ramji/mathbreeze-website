@@ -9,7 +9,7 @@ export default function MenuCard({title, link, color}) {
             <Card style={{backgroundColor: color, textAlign: 'center'}}>
                 <CardActionArea>
                     <CardContent>
-                        <h3>{title}</h3>
+                        <h3 style={{fontSize: '1.3em'}}>{title}</h3>
                     </CardContent>
                 </CardActionArea>
             </Card>

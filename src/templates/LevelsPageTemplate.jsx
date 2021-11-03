@@ -1,11 +1,7 @@
-import SubHeader from '../components/SubHeader';
-import LevelsMenu from '../components/LevelsMenu';
-
-export default function LevelsPageTemplate({operationName}) {
+export default function LevelsPageTemplate() {
     return (
         <div className='levelsPageTemplate'>
-            <SubHeader title={operationName} link='/practice' />
-            <LevelsMenu operationName={operationName} />
+            
         </div>
     );
 }

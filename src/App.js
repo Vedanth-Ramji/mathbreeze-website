@@ -13,10 +13,10 @@ import NumberFactsPage from './pages/NumberFactsPage';
 import PracticePage from './pages/PracticePage';
 import PageNotFoundPage from './pages/PageNotFoundPage';
 
-import AdditionPage from './pages/operationsPages/AdditionPage';
-import SubtractionPage from './pages/operationsPages/SubtractionPage';
-import MultiplicationPage from './pages/operationsPages/MultiplicationPage';
-import DivisionPage from './pages/operationsPages/DivisionPage';
+import AdditionPage from './pages/operationsPages/additionPages/AdditionPage';
+import SubtractionPage from './pages/operationsPages/subtractionPages/SubtractionPage';
+import MultiplicationPage from './pages/operationsPages/multiplicationPages/MultiplicationPage';
+import DivisionPage from './pages/operationsPages/divisionPages/DivisionPage';
 
 export default function App() {
     return (
