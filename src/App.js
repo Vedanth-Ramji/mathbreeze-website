@@ -18,6 +18,8 @@ import SubtractionPage from './pages/operationsPages/subtractionPages/Subtractio
 import MultiplicationPage from './pages/operationsPages/multiplicationPages/MultiplicationPage';
 import DivisionPage from './pages/operationsPages/divisionPages/DivisionPage';
 
+import AdditionLevel1Page from './pages/operationsPages/additionPages/AdditionLevel1Page';
+
 export default function App() {
     return (
         <div className='app'>
@@ -32,6 +34,7 @@ export default function App() {
                     <Route exact path='/practice/subtraction' component={SubtractionPage} />
                     <Route exact path='/practice/multiplication' component={MultiplicationPage} />
                     <Route exact path='/practice/division' component={DivisionPage} />
+                    <Route exact path='/practice/addition/level1' component={AdditionLevel1Page} />
                     <Route component={PageNotFoundPage} />
                 </Switch>
             </Router>
