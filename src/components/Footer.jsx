@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <div className='footer'>
             <div className='footer-content'>
-                <h3>Created by Vedanth Ramji</h3>
+                <h4>By Vedanth Ramji</h4>
 
                 <div className='footer-links'>
                     <a target='_blank' href='https://github.com/Vedanth-Ramji'>
