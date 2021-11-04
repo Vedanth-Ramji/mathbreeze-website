@@ -3,6 +3,7 @@ import SubHeader from '../components/SubHeader';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import '../styles/GlobalStyles.css';
+import '../styles/templateStyles/LevelPageTemplateStyles.css';
 
 export default function LevelPageTemplate({level, operationName, operationSymbol}) {
     let scale = 0;
@@ -58,20 +59,26 @@ export default function LevelPageTemplate({level, operationName, operationSymbol
     return (
         <div className='levelPageTemplate'>
             <SubHeader title={`${operationName} | ${level}`} link={`/practice/${operationName.toLowerCase()}`} />
-            <h3 className='closedSubheader'>Question {questionNum}: {num1} + {num2}</h3>
-            <TextField
-                id='filled-basic'
-                label='Enter Number'
-                variant='outlined'
-                onChange={e => setInput(e.target.value)}
-            />
-            <Button
-                variant='contained'
-                style={{backgroundColor: '#3DB2FF'}}
-                onClick={handleSubmit}
-            >
-                Submit
-            </Button>
+
+            <h3 className='levelPageTemplate-questionNum'>Question {questionNum}</h3>
+            <h3 className='levelPageTemplate-question'>{num1} + {num2}</h3>
+
+            <div className='levelPageTemplate-formArea'>
+                <TextField
+                    id='filled-basic'
+                    label='Enter Answer'
+                    variant='outlined'
+                    onChange={e => setInput(e.target.value)}
+                />
+
+                <Button
+                    variant='contained'
+                    style={{backgroundColor: '#3DB2FF'}}
+                    onClick={handleSubmit}
+                >
+                    Submit
+                </Button>
+            </div>
         </div>
     );
 }
