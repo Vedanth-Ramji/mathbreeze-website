@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 import HomePage from './pages/HomePage';
 import NumberFactsPage from './pages/NumberFactsPage';
@@ -38,6 +39,8 @@ export default function App() {
                     <Route component={PageNotFoundPage} />
                 </Switch>
             </Router>
+
+            <Footer />
         </div>
     );
 }

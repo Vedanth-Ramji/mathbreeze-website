@@ -7,11 +7,12 @@
 }
 
 .app {
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .closedSubheader {
     text-align: center;
     padding: 20px;
 }
-
