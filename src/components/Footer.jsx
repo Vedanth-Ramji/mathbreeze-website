@@ -11,15 +11,15 @@ export default function Footer() {
                 <h4>By Vedanth Ramji</h4>
 
                 <div className='footer-links'>
-                    <a target='_blank' href='https://github.com/Vedanth-Ramji'>
+                    <a target='_blank' rel='noreferrer' href='https://github.com/Vedanth-Ramji'>
                         <IconButton><GitHubIcon /></IconButton>
                     </a>
 
-                    <a target='_blank' href='https://www.linkedin.com/in/vedanth-ramji-191530215/'>
+                    <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/vedanth-ramji-191530215/'>
                         <IconButton><LinkedInIcon /></IconButton>
                     </a>
 
-                    <a target='_blank' href='https://twitter.com/VedanthRamji'>
+                    <a target='_blank' rel='noreferrer' href='https://twitter.com/VedanthRamji'>
                         <IconButton><TwitterIcon /></IconButton>
                     </a>
                 </div>
