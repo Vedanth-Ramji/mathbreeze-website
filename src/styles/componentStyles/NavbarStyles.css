@@ -7,3 +7,7 @@
 .navbar h1:hover {
     color: #3DB2FF;
 }
+
+.navbar-link {
+    text-decoration: none;
+}

@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 export default function Navbar() {
     return (
         <div className='navbar'>
-            <Link style={{textDecoration: 'none'}} to='/'>
+            <Link className='navbar-link' to='/'>
                 <h1>Math Breeze</h1>
             </Link>
         </div>

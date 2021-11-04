@@ -12,7 +12,7 @@ export default function SubHeader({title, link}) {
                 </IconButton>
             </Link>
 
-            <div style={{textAlign: 'center', width: '100%'}}>
+            <div className='subHeader-title'>
                 <h2>{title}</h2>
             </div>
         </div>

@@ -1,3 +1,7 @@
 .pageNotFoundPage {
     text-align: center;
 }
+
+.pageNotFoundPage-link {
+    text-decoration: none;
+}
